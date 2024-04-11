@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+} 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*estilos header*/
+.cabecera {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #663058;
+    padding: 20px;
+}
+.header {
+    color: #fff;
+}
+.header h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+} 
+.header h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.header p {
+    margin-bottom: 5px;
+}
+.header-links nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+} 
+
+ /*estilo secciones*/
+.presentacion,.aptitudes,.educacion,.laboral {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.presentacion h2,.aptitudes h3,.educacion h3,.laboral h3 {
+    color: #663058;
+    margin-bottom: 10px;
+} 
+.presentacion p,.aptitudes ul,.educacion h4,.educacion p,.laboral h4,.laboral ol {
+    margin-bottom: 10px;
+}
+.aptitudes ul,.laboral ol {
+    list-style: none;
+}  
+.aptitudes li,.laboral li {
+    margin-bottom: 5px;
+}
+
+  /* estilo links*/
+a {
+    color: #663058;
+} 
+a:hover {
+    text-decoration: underline;
+    color: #663058;
+}
+
+/*estilos tabla*/
+.tabla{
+    justify-content: center;
+    padding: px;
+    margin-left: 400px;
+}
+.tabla, tr, td{
+    text-align: center;
+}
+  
